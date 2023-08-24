@@ -10,7 +10,7 @@ function getArrayParams(...arr) {
       min = arr[i];
     }
   }
-  let avg =+ (sum / arr.lengh). toFixed(2);
+  let avg =+ (sum / arr.length). toFixed(2);
 
   return { min: min, max: max, avg: avg };
 }
